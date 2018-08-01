@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "435123402352",
+    "firebase_url": "https://hostel-e8b79.firebaseio.com",
+    "project_id": "hostel-e8b79",
+    "storage_bucket": "hostel-e8b79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435123402352:android:6b0f451c236dbf14",
+        "android_client_info": {
+          "package_name": "com.example.raymond.hostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435123402352-uv2b0h63povms9kk17m1r6lghkc1f6a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgoyhT901G1WjtDVjsJesnWDe3Hkk5Sq4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
