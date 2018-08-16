@@ -31,17 +31,17 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        buttonLogin = (Button) findViewById(R.id.buttonLogin);
-        editTextEmail = (EditText)findViewById(R.id.editTextEmail);
-        editTextPassword = (EditText)findViewById(R.id.editTextPassword);
-        textViewSingUp = (TextView) findViewById(R.id.textViewSignUp);
+        buttonLogin =  findViewById(R.id.buttonLogin);
+        editTextEmail = findViewById(R.id.editTextEmail);
+        editTextPassword = findViewById(R.id.editTextPassword);
+        textViewSingUp =  findViewById(R.id.textViewSignUp);
 
         progressDialog = new ProgressDialog(this);
         firebaseAuth = FirebaseAuth.getInstance();
 
 
 
-        //settinng OnClickLister
+        //setting OnClickLister
         textViewSingUp.setOnClickListener(this);
         buttonLogin.setOnClickListener(this);
 
@@ -62,7 +62,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             return;
         }
 
-        progressDialog.setMessage("Login In...");
+        progressDialog.setMessage("Login In Please Wait...");
         progressDialog.show();
 
         firebaseAuth.signInWithEmailAndPassword(email, password)

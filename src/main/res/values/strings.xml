@@ -1,3 +1,49 @@
 <resources>
     <string name="app_name">PLASU Hostel Allocation System</string>
+    <string name="enter_your_mat_no">Enter Your Mat No.</string>
+    <string name="enter_department">Enter Department</string>
+    <string name="logout">Logout</string>
+    <string name="save">Save</string>
+    <string name="login_here">Login Here</string>
+    <string name="enter_your_email1">Enter Your Email</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up_here">Don\'t Have An Account? Sign Up Here</string>
+    <string name="register_here">Fill Your Information Below</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password2">Enter Your Password</string>
+    <string name="register">Register</string>
+    <string name="welcome">Welcome</string>
+    <string name="faculty">Select Your Faculty Below</string>
+    <string name="selectdepartment">Select Your Department Below</string>
+    <string name="studentname">Enter Name</string>
+    <string name="studentmatricno">Matriculation Number</string>
+    <string name="enter_your_phone_number">Enter Your Phone Number</string>
+    <string name="contact_number_incase_of_emergency">Contact Number Incase Of Emergency</string>
+    <string name="already_registered_sign_in_here">Already Registered? Sign In Here</string>
+    <string name="enter_your_password3">Enter Your Password</string>
+    <string-array name="departments">
+        <item>Accounting</item>
+        <item>Biochemistry</item>
+        <item>Chemistry</item>
+        <item>Computer Science</item>
+        <item>Economics</item>
+        <item>English</item>
+        <item>Geography</item>
+        <item>History</item>
+        <item>Mathematics</item>
+        <item>Mass Communication</item>
+        <item>Microbilogy</item>
+        <item>Management</item>
+        <item>Physics</item>
+        <item>Political Science</item>
+        <item>Psychology</item>
+        <item>Sociology</item>
+        <item>Theatre Art</item>
+    </string-array>
+    <string-array name="faculties">
+        <item>Arts</item>
+        <item>Management Science</item>
+        <item>Natural And Applied Science</item>
+        <item>Social Science</item>
+    </string-array>
 </resources>

@@ -1,40 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#795548"
+    android:textColor="@android:color/white"
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
 
     <LinearLayout
-        android:layout_centerVertical="true"
-        android:orientation="vertical"
-        android:layout_centerHorizontal="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/emailDisplay"
-            android:layout_margin="15dp"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text=""/>
+            android:layout_margin="15dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
+        <EditText
+            android:id="@+id/editTexMatNo"
+            android:padding="15dp"
+            android:inputType="text"
+            android:hint="@string/enter_your_mat_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/outline"
+            android:layout_margin="15dp" />
+
+        <EditText
+            android:id="@+id/editTextDepartment"
+            android:hint="@string/enter_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/outline"
+            android:padding="15dp"
+            android:inputType="text"
+            android:layout_margin="15dp" />
 
         <Button
-            android:layout_margin="15dp"
-            android:id="@+id/buttonLogout"
-            android:text="Logout"
+            android:id="@+id/buttonSave"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_margin="15dp"
+            android:text="@string/save" />
+
+
+
 
     </LinearLayout>
 
 
-</RelativeLayout>
+</ScrollView>
